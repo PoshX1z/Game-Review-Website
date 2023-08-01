@@ -1,0 +1,72 @@
+body {
+    background: linear-gradient(95.2deg, #292929 26.8%, #292929 64%);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    height: 80px;
+
+}
+
+nav img {
+    height: 6%;
+    position: absolute;
+    left: 5%;
+}
+
+nav a {
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+    margin: 70px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background: #F28C28;
+    border-radius: 7px;
+    transition: 0.1s ease-in-out;
+}
+
+nav input {
+    width: 350px;
+}
+
+header {
+    font-size: 22px;
+    margin: 20px 0 0 600px;
+    color: white;
+}
+
+.card-top .title {
+    position: absolute;
+    top: 48%;
+    color: #f5f5dc;
+    font-size: 27px;
+    font-family: 'Bebas Neue', cursive;
+    background-image: linear-gradient(#F28C28, #F28C28);
+    background-size: 100% 10px;
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    transition: background-size .7s, background-position .5s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.title:hover {
+    background-size: 100% 100%;
+    background-position: 0% 100%;
+    transition: background-position 0.7s, background-size .5s ease-in-out;
+}
+
+a.active {
+    background: lightblue;
+}
+
+.container .card:hover {
+    transform: scale(1.02);
+    transition: 0.2s ease;
+}
